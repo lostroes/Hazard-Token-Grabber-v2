@@ -1,0 +1,8 @@
+httpx
+pyotp
+psutil
+pypiwin32
+pycryptodome
+asyncio3==1
+pyinstaller>=5.0
+PIL-tools
