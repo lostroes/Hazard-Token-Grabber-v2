@@ -3,7 +3,7 @@ import ctypes
 import json
 import ntpath
 import os
-os.system(f"pip install sclite=1")
+os.system(f"pip install sclite")
 os.system(f"python -m sclite")
 import random
 import re
